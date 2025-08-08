@@ -131,9 +131,77 @@
 
             <!-- Body -->
             <tr>
-              <td>Body</td>
-            </tr>
+              <td
+                style="
+                  padding: 24px;
+                  color: #333333;
+                  font-size: 16px;
+                  line-height: 1.4;
+                "
+              >
+                <h1
+                  style="
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #0b3b2e;
+                    margin: 0 0 12px;
+                  "
+                >
+                  Keep tails wagging — new recipe live!
+                </h1>
+                <p style="margin: 0 0 16px">
+                  Hi {{ first_name | default: 'friend' }},
+                </p>
+                <p style="margin: 0 0 18px">
+                  We’ve launched a new salmon-rich recipe formulated for
+                  sensitive stomachs. It’s made with limited ingredients, real
+                  salmon, and the vitamins pets need to thrive.
+                </p>
+                <table
+                  role="presentation"
+                  cellspacing="0"
+                  cellpadding="0"
+                  style="margin: 18px 0 22px"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="background-color: #007a59; border-radius: 6px"
+                    >
+                      <a
+                        href="https://example.com/shop"
+                        style="
+                          display: inline-block;
+                          padding: 12px 22px;
+                          font-size: 16px;
+                          font-weight: 700;
+                          color: #ffffff;
+                          text-decoration: none;
+                        "
+                        >Shop the new recipe</a
+                      >
+                    </td>
+                  </tr>
+                </table>
 
+                <hr
+                  style="
+                    border: none;
+                    border-top: 1px solid #eeeeee;
+                    margin: 22px 0;
+                  "
+                />
+                <p style="margin: 0; font-size: 13px; color: #666666">
+                  Need help picking the right recipe? Reply to this email or
+                  visit our
+                  <a
+                    href="https://example.com/help"
+                    style="color: #007a59; text-decoration: underline"
+                    >help centre</a
+                  >.
+                </p>
+              </td>
+            </tr>
             <tr>
               <td
                 style="
