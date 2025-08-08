@@ -13,7 +13,7 @@ This repository contains a **responsive HTML email template** I created to demon
 ## Live Demo
 
 View the live version of the email template hosted on GitHub Pages here:  
-[https://yourusername.github.io/email-template/](https://yourusername.github.io/email-template/)
+[https://chris-townsend.github.io/email-template/](https://chris-townsend.github.io/email-template/)
 
 ## Usage
 
